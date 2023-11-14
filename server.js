@@ -2,7 +2,7 @@ import express from "express";
 import cors from 'cors';
 import vetRoutes from "./Routes/vetRoutes.js";
 import patientRoutes from "./Routes/patientRoutes.js";
-import "dotenv/config";
+// import "dotenv/config";
 import connectDB from "./config/db.js";
 import corsOptions from "./helpers/corsOptions.js";
 const app = express();
